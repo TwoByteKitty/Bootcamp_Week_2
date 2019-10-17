@@ -1,0 +1,17 @@
+
+body {
+    background-color: oldlace;
+    margin: 0;
+}
+
+.name-box {
+    display: block;
+    padding: 10px;
+    background-color: teal;
+}
+
+@media (min-width: 768px){
+    .name-box {
+        display: inline;
+    }
+}
