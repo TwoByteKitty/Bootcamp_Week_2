@@ -1,0 +1,22 @@
+
+
+.bkground {
+    background-image: url(https://utemplates.net/wp-content/uploads/2017/07/White-Textured-Background.jpg);
+    background-color: lightgray;
+}
+
+.img-wrapper {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .img-wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-wrapper {
+        width: 25%;
+    }
+}
